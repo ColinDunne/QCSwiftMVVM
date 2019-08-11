@@ -11,6 +11,9 @@
 		D02849CF22FFF17400C25ED2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02849CE22FFF17400C25ED2 /* ViewController.swift */; };
 		D02849D422FFF17600C25ED2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02849D322FFF17600C25ED2 /* Assets.xcassets */; };
 		D02849D722FFF17600C25ED2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02849D522FFF17600C25ED2 /* LaunchScreen.storyboard */; };
+		D096717A230046B2005220D1 /* QCNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0967179230046B2005220D1 /* QCNavigationController.swift */; };
+		D096717C230046DF005220D1 /* QCMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096717B230046DF005220D1 /* QCMainViewController.swift */; };
+		D096717E23004705005220D1 /* QCBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096717D23004705005220D1 /* QCBaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		D02849D322FFF17600C25ED2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D02849D622FFF17600C25ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D02849D822FFF17600C25ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0967179230046B2005220D1 /* QCNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QCNavigationController.swift; sourceTree = "<group>"; };
+		D096717B230046DF005220D1 /* QCMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QCMainViewController.swift; sourceTree = "<group>"; };
+		D096717D23004705005220D1 /* QCBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QCBaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,10 @@
 		D02849CB22FFF17400C25ED2 /* QCSwiftMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				D09671732300418A005220D1 /* Model */,
+				D0967176230041AB005220D1 /* ViewModel */,
+				D0967175230041A0005220D1 /* Controller */,
+				D096717423004196005220D1 /* View */,
 				D02849CC22FFF17400C25ED2 /* AppDelegate.swift */,
 				D02849CE22FFF17400C25ED2 /* ViewController.swift */,
 				D02849D322FFF17600C25ED2 /* Assets.xcassets */,
@@ -59,6 +69,37 @@
 				D02849D822FFF17600C25ED2 /* Info.plist */,
 			);
 			path = QCSwiftMVVM;
+			sourceTree = "<group>";
+		};
+		D09671732300418A005220D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D096717423004196005220D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0967175230041A0005220D1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D0967179230046B2005220D1 /* QCNavigationController.swift */,
+				D096717D23004705005220D1 /* QCBaseViewController.swift */,
+				D096717B230046DF005220D1 /* QCMainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D0967176230041AB005220D1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,7 +173,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D02849CF22FFF17400C25ED2 /* ViewController.swift in Sources */,
+				D096717C230046DF005220D1 /* QCMainViewController.swift in Sources */,
 				D02849CD22FFF17400C25ED2 /* AppDelegate.swift in Sources */,
+				D096717A230046B2005220D1 /* QCNavigationController.swift in Sources */,
+				D096717E23004705005220D1 /* QCBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
